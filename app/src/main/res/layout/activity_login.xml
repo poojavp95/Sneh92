@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sneh92.sneh92.Login"
+    android:background="#FFF59D">
+
+    <ImageView
+        android:src="@drawable/logo1"
+        android:layout_width="600dp"
+        android:layout_height="800dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:layout_marginTop="420dp"
+        android:textSize="20sp"
+        android:background="#00796B"
+        android:textColor="#ffff"
+        android:elevation="2dp"
+        />
+
+    <TextView android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        />
+    <TextView android:text="Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        />
+    <EditText
+        android:id="@+id/editTextUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="260dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="340dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="textPassword"/>
+
+</RelativeLayout>

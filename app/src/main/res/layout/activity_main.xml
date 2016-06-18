@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sneh92.sneh92.MainActivity"
+ >
+
+<FrameLayout
+    android:id="@+id/search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="25dp"
+    android:paddingTop="25dp"
+    android:background="#00796B"
+    >
+    <Spinner
+        android:id="@+id/spincat"
+        android:layout_width="120dp"
+        android:layout_height="40sp"
+        android:background="@drawable/edittextstyle"
+        />
+    <SearchView
+        android:id="@+id/edit_search"
+        android:layout_width="120dp"
+        android:layout_height="40sp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:layout_marginStart="140dp"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text"
+        />
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:src="@drawable/searchicon"
+        android:elevation="3dp"
+        android:layout_marginStart="280dp"
+        android:onClick="querySearch"/>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag_holder"
+        android:layout_below="@id/search"/>
+</RelativeLayout>

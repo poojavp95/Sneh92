@@ -1,0 +1,459 @@
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="#FFF9C4"
+    tools:context="com.sneh92.sneh92.InfoRegister">
+    <TextView android:text="First Name : *"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_fname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:focusable="false"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Middle Name : *"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_mname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="130dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:focusable="false"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Last Name : *"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_lname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="210dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:focusable="false"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Previous First Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_pfname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="290dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Previous Middle Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_pmname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="380dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Previous Last Name :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_plname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="460dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Date of Birth :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_dob"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="540dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Blood Group :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <Spinner
+        android:id="@+id/spin_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="620dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Gender :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <Spinner
+        android:id="@+id/spin_gender"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="700dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Education :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_edu"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="780dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Profession :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="830dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_prof"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="860dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Address :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="910dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="940dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="City:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1050dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <EditText
+        android:id="@+id/edit_city"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1080dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="State :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1130dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_state"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1160dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Country :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1210dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_country"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1240dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Telephone No. :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1290dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_tele"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1320dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Mobile No :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1370dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_mob1"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1400dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Mobile No (2) :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1450dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_mob2"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1480dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Whatsapp No :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1530dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_whatsapp"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1560dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Email Id :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1610dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1640dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Facebook Id :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1690dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_fb"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1720dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Spouse First Name :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1750dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_sfname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1780dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Spouse Middle Name :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1830dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_smname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1860dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <TextView android:text="Spouse Last Name :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1910dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_slname"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="1940dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Spouse Profession :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1990dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+    />
+    <EditText
+        android:id="@+id/edit_sprof"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="2020dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+
+    <TextView android:text="Marriage Anniversary Date :"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2070dp"
+    android:textSize="15sp"
+    android:textColor="#000"
+     />
+    <EditText
+        android:id="@+id/edit_anniv_date"
+        android:layout_width="fill_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="2100dp"
+        android:textSize="20sp"
+        android:ems="10"
+        android:background="@drawable/edittextstyle"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="2150dp"
+        android:textSize="20sp"
+        android:background="#00796B"
+        android:textColor="#ffff"
+        android:elevation="2dp"
+        android:onClick="register"
+        />
+
+
+
+</RelativeLayout>
+</ScrollView>
